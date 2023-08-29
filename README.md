@@ -22,7 +22,7 @@ While benchmark datasets in daily scenes have yielded satisfactory results in cu
 ## Overview
 
 <div  align="center">    
-    <img src="./img/full_arch.jpg" width = "600" alt="Architecture" align=center />
+    <img src="./img/arch.jpg" width = "600" alt="Architecture" align=center />
     <br>
     <div style="color:orange; border-bottom: 2px solid #d9d9d9;
     display: inline-block;
@@ -31,6 +31,7 @@ While benchmark datasets in daily scenes have yielded satisfactory results in cu
       The overall architecture of Motion Information Enhancement Network (MIE-Net).
   	</div>
 </div>
+
 
 We form an end-to-end action recognition framework named Motion Information Enhancement Network (MIE-Net). Given an input video V, we perform video frame sampling and create the set of RGB and PA features. Next, we emphasize the interaction between two features via Adaptive Fusion Module (AFM). Then, we feed the fused features into the backbone and implement temporal modeling by Double Pooling Temporal Attention Module (DPTAM) during feature extraction. Finally, the class scores are output by a fully connected layer.
 
@@ -57,9 +58,9 @@ Adaptive Fusion Module (AFM) is designed to emphasize information interaction an
     display: inline-block;
     color: #999;
     padding: 10px;">
-      <!-- The overall architecture of Motion Information Enhancement Network (MIE-Net). -->
+      <!-- The overall architecture of Motion Information Enhancement Network (MIE-Net).
   	</div>
-</div> --> -->
+</div>  -->
 
 Double Pooling Temporal Attention Module (DPTAM) is proposed to model the interdependencies among time and channels, which can be plug-and-play in the backbone network to refine the feature information. The module employs spatial operations to adjust the global information and temporal operations to capture the local receptive field, resulting in the effective calibration of spatio-temporal information.
 
