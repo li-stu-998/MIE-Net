@@ -1,0 +1,1 @@
+python test_models.py diving --batch_size=8 -j=4 --test_crops=1 --test_segments=8 --dptam --weights=ckpt/diving48/mie-net/ckpt.best.pth.tar 
