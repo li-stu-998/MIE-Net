@@ -1,10 +1,10 @@
-# MIE-Net: Motion information enhancement network for standing long jump analysis 
+# MIE-Net: Motion Information Enhancement Network for Action Recognition
 
 
 
 ## Main Contribution
 
-While benchmark datasets in daily scenes have yielded satisfactory results in current action recognition tasks, challenges still exist in sports action recognition tasks due to background unbiasedness and action similarity. It is crucial for sports action recognition tasks to mine dynamic motion information efficiently in videos. In this paper, we propose an **Adaptive Fusion Module** (AFM) that selectively extracts the relationships to emphasize the interaction between RGB features and motion-enhanced features and a **Double Pooling Temporal Attention Module** (DPTAM) to enhance important features by temporal modeling. Based on the above two innovative modules, we form an end-to-end video action recognition framework, namely Motion Information Enhancement Network (MIE-Net). Then, we build a specific Standing Long Jump Dataset (SLJD), aiming at decomposing SLJ actions in a fine-grained manner. Our experimental results demonstrate superior performance in recognition accuracy and efficiency.
+While benchmark datasets in daily scenes have yielded satisfactory results in current action recognition tasks, challenges still exist in sports action recognition tasks due to action similarity. It is crucial for fine-grained action recognition tasks to mine dynamic motion information efficiently in videos. In this paper, we propose an **Adaptive Fusion Module** (AFM) that selectively extracts the relationships to emphasize the interaction between RGB features and motion-enhanced features and a **Double Pooling Temporal Attention Module** (DPTAM) to enhance important features by temporal modeling. Based on the above two innovative modules, we form an end-to-end video action recognition framework, namely Motion Information Enhancement Network (MIE-Net). Then, we construct a specific Standing Long Jump Dataset (SLJD), aiming at decomposing SLJ actions in a fine-grained manner. Our experimental results demonstrate superior performance in recognition accuracy and efficiency.
 
 
 
