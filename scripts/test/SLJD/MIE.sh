@@ -1,0 +1,1 @@
+python test_models.py jump --batch_size=8 -j=4 --test_crops=1 --test_segments=3 --dptam --weights=ckpt/SLJD/mie-net/ckpt.best.pth.tar 
